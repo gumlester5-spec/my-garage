@@ -26,3 +26,16 @@ Una aplicación para gestionar el mantenimiento de tus motocicletas. Registra se
    ```
 3. Inicia el servidor de desarrollo:
    `npm run dev`
+
+## Despliegue en Netlify
+
+Para que la aplicación funcione correctamente en Netlify, necesitas configurar las variables de entorno de Firebase en el panel de tu sitio.
+
+1.  Ve a **Site settings > Build & deploy > Environment**.
+2.  Haz clic en **"Edit variables"** y añade las mismas claves y valores que usaste en tu archivo `.env` local.
+
+    Asegúrate de que cada clave comience con el prefijo `VITE_`, ya que es requerido por Vite para exponer las variables a la aplicación del lado del cliente.
+
+    Por ejemplo:
+    -   **Key**: `VITE_FIREBASE_API_KEY`
+    -   **Value**: `TU_API_KEY`
