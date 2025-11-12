@@ -1,0 +1,5 @@
+{
+  "name": "Mi Garage",
+  "description": "Una aplicación para gestionar el mantenimiento de tus motocicletas. Registra servicios, establece recordatorios y guarda datos técnicos importantes para mantener tus motos en perfecto estado.",
+  "requestFramePermissions": []
+}
